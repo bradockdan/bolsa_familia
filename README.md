@@ -1,28 +1,20 @@
-# 📋 Sistema de Cadastro Bolsa Família
+# Sistema de Cadastro Bolsa Família
 
-[![Acessar Aplicação](https://img.shields.io/badge/🌐-Acessar%20Aplica%C3%A7%C3%A3o-brightgreen)](https://seuusuario.github.io/bolsa-familia)
-
-Sistema web para cadastro de solicitações do benefício Bolsa Família.
-
-## 🚀 Demo Online
-**👉 [Clique aqui para acessar o sistema](https://seuusuario.github.io/bolsa-familia)**
+Sistema web para cadastro de solicitações do benefício Bolsa Família desenvolvido em PHP.
 
 ## 📋 Funcionalidades
-- ✅ Formulário responsivo
-- ✅ Validação de dados
-- ✅ Envio para email
-- ✅ Interface moderna
 
-## 🛠️ Tecnologias
-- HTML5, CSS3, JavaScript
-- FormSubmit para processamento
-- GitHub Pages para hospedagem
+- Formulário de cadastro responsivo
+- Validação de dados do responsável familiar
+- Captura de informações de endereço
+- Registro da situação familiar e renda
+- Sistema de mensagens de feedback
 
-## 📧 Configuração do Email
-1. Acesse [FormSubmit.co](https://formsubmit.co)
-2. Use o email: `seu-email@gmail.com`
-3. Ative a confirmação no email
+## 🛠️ Tecnologias Utilizadas
 
----
+- **PHP** - Backend e processamento
+- **HTML5** - Estrutura da página
+- **CSS3** - Estilização e design responsivo
+- **JavaScript** - Validações e interações no frontend
 
-**⚡ O sistema está pronto para uso imediato!**
+## 📦 Estrutura do Projeto
