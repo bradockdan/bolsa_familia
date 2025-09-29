@@ -1,0 +1,20 @@
+CREATE TABLE cadastros (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    nome_responsavel VARCHAR(100) NOT NULL,
+    cpf_responsavel VARCHAR(14) NOT NULL UNIQUE,
+    data_nascimento DATE NOT NULL,
+    telefone VARCHAR(15),
+    email VARCHAR(100),
+    endereco VARCHAR(200) NOT NULL,
+    numero VARCHAR(10) NOT NULL,
+    complemento VARCHAR(50),
+    bairro VARCHAR(50) NOT NULL,
+    cidade VARCHAR(50) NOT NULL,
+    estado VARCHAR(2) NOT NULL,
+    cep VARCHAR(9) NOT NULL,
+    qtd_pessoas INT NOT NULL,
+    renda_mensal DECIMAL(10,2) NOT NULL,
+    observacoes TEXT,
+    status ENUM('pendente', 'aprovado', 'reprovado') DEFAULT 'pendente'
+);
